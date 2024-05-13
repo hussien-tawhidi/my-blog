@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "customize-design": "url('/images/customize.jpg')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
       colors: {
         primary: "#f3f3f3",
         secondary: "#97a7b9",

@@ -27,7 +27,7 @@ const Header = () => {
     <div
       className={
         isScrolling
-          ? "fixed top-0 left-0 right-0 z-[999] bg-primary transition-all duration-500"
+          ? "fixed top-0 left-0 right-0 z-[999] bg-primary/80 transition-all duration-500"
           : "fixed top-0 left-0 right-0 z-[999] transition-all duration-500"
       }>
       <div className='hidden lg:block'>
