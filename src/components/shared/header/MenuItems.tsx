@@ -8,11 +8,12 @@ interface props {
   icon: IconType;
   href: string;
   classLink: string;
+  onClick?: () => void
 }
 
-const MenuItems = ({ label, icon: Icon, href, classLink }: props) => {
+const MenuItems = ({ label, icon: Icon, href, classLink,onClick }: props) => {
   return (
-    <Link href={href} className={classLink}>
+    <Link href={href} className={classLink} onClick={onClick}>
       <span>{label}</span>
       <Icon />
     </Link>

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Dosis } from "next/font/google";
 import "./(site)/globals.css";
+
 import Header from "@/components/shared/header";
+import Footer from "@/components/shared/footer/Footer";
 
 const dosis = Dosis({ subsets: ["latin"] });
 
@@ -18,9 +20,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={dosis.className}>
-        <div className='bg-primary'>
+        <div className='bg-primary text-dark'>
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

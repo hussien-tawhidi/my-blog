@@ -10,10 +10,11 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "customize-design": "url('/images/customize.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "blog-card": "url('/images/blogcard.jpg')",
       },
       colors: {
         primary: "#f3f3f3",
+        // primary: "#f3f3f3",
         secondary: "#97a7b9",
         dark: "#3d444a",
         blue: "#306dc9",

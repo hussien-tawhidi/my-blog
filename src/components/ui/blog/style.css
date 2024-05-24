@@ -1,0 +1,39 @@
+nav {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 20px 0 0;
+  float: left;
+  display: inline-block;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  float: left;
+  padding: 3px;
+}
+
+nav ul li ul li {
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul li:hover ul {
+  display: block;
+}

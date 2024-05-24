@@ -11,7 +11,7 @@ interface props {
 const GoalItems = ({ title, icon: Icon, description, className }: props) => {
   return (
     <div className={className}>
-      <h2 className='md:text-5xl text-4xl font-light my-2 md:my-4 flex items-center'>
+      <h2 className='md:text-5xl text-4xl font-semibold md:font-light my-2 md:my-4 flex items-center'>
         {title}
         <Icon />
       </h2>

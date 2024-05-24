@@ -8,7 +8,7 @@ const Banner = () => {
       <div className='flex justify-center items-center w-full h-full '>
         <div className='bg-primary/90 w-[300px] sm:w-[500px] md:w-[600px] mx-auto p-3 sm:p-10 text-center'>
           <span className='md:text-[16px] text-[12px]'>CUSTOMIZE DESIGN</span>
-          <h4 className='my-2 text-[20px] sm:text-[30px] md:text-[40px] leading-5 sm:leading-8 md:leading-0'>
+          <h4 className='my-2 text-[20px] sm:text-[30px] md:text-[40px] leading-5 sm:leading-8 md:leading-[50px]'>
             You can build your site exactly how you like it, we would make as
             you like it
           </h4>
