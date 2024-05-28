@@ -6,6 +6,9 @@ import React, { useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import Menu from "./Menu";
 import { HiMenuAlt2 } from "react-icons/hi";
+import { MdLanguage } from "react-icons/md";
+
+
 const MobileHeader = () => {
   const [menu, setMenu] = useState(false);
 
@@ -15,32 +18,21 @@ const MobileHeader = () => {
 
   return (
     <div className='flex justify-between items-center relative p-2 md:p-4'>
-      <Link href='/' className='lg:hidden block'>
-        <Image
-          src='/images/logo.png'
-          alt='Site Logo'
-          width={80}
-          height={50}
-          className='object-cover w-[45px] sm:w-[60px] overflow-hidden'
-        />
-      </Link>
-      <button onClick={showMenuHandler} className='lg:block hidden'>
-        <HiMenuAlt2 size={30} />
+      <div className='flex items-center justify-center gap-2'>
+        <Link href='/'>
+          <Image
+            src='/images/logo.png'
+            alt='Site Logo'
+            width={80}
+            height={50}
+            className='object-cover w-[20px] sm:w-[30px] overflow-hidden'
+          />
+        </Link>
+        <MdLanguage className='sm:text-[30px] text-[20px]' />
+      </div>
+      <button onClick={showMenuHandler}>
+        <HiMenuAlt3 className='sm:text-[30px] text-[20px]' />
       </button>
-      <button onClick={showMenuHandler} className='lg:hidden block'>
-        <HiMenuAlt3 size={30} />
-      </button>
-
-      <Link href='/' className='lg:block hidden'>
-        <Image
-          src='/images/logo.png'
-          alt='Site Logo'
-          width={80}
-          height={50}
-          className='object-cover w-[45px] sm:w-[60px] overflow-hidden'
-        />
-      </Link>
-
       <Menu menu={menu} showMenuHandler={showMenuHandler} />
     </div>
   );

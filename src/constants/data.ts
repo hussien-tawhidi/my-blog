@@ -1,7 +1,7 @@
 import { FaCode } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { GoProjectSymlink } from "react-icons/go";
-import { ImProfile } from "react-icons/im";
+import { GiGiftOfKnowledge } from "react-icons/gi";
 import { GrShieldSecurity } from "react-icons/gr";
 import { TbSeo } from "react-icons/tb";
 
@@ -18,10 +18,19 @@ export const headerMenu = [
   { id: 2, title: "Development", icon: FaCode, href: "/development" },
   { id: 3, title: "Projects", icon: GoProjectSymlink, href: "/projects" },
   { id: 4, title: "Blog", icon: SiBloglovin, href: "/blog" },
-  { id: 5, title: "Profile", icon: ImProfile, href: "/profile" },
+  // { id: 5, title: "Profile", icon: ImProfile, href: "/profile" },
   { id: 6, title: "About", icon: FcAbout, href: "/about" },
   { id: 7, title: "Contact", icon: MdOutlineContactPhone, href: "/contact" },
-  { id: 8, title: "Lan", icon: MdLanguage, href: "/language" },
+  { id: 8, title: "Taturials", icon: GiGiftOfKnowledge, href: "/language" },
+];
+
+export const searchContaineDate = [
+  { id: 1, title: "visting an Am store FAQ", linkTo: "/" },
+  { id: 2, title: "airPod", linkTo: "/" },
+  { id: 3, title: "Iphone", linkTo: "/" },
+  { id: 4, title: "HeadPhone", linkTo: "/" },
+  { id: 5, title: "Samsung", linkTo: "/" },
+  { id: 6, title: "Gift", linkTo: "/" },
 ];
 
 export const homeGoalData = [
@@ -103,6 +112,7 @@ export const randomProjects = [
 export const randomData = [
   {
     id: 1,
+    image: "/images/hero.jpg",
     title: "blog one for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -114,6 +124,8 @@ export const randomData = [
   },
   {
     id: 2,
+    image: "/images/hero.jpg",
+
     title: "blog tow for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -126,6 +138,8 @@ export const randomData = [
   },
   {
     id: 3,
+    image: "/images/hero.jpg",
+
     title: "blog three for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -138,6 +152,8 @@ export const randomData = [
   },
   {
     id: 4,
+    image: "/images/hero.jpg",
+
     title: "blog four for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -150,6 +166,8 @@ export const randomData = [
   },
   {
     id: 5,
+    image: "/images/hero.jpg",
+
     title: "blog five for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -162,6 +180,8 @@ export const randomData = [
   },
   {
     id: 6,
+    image: "/images/hero.jpg",
+
     title: "blog six for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -174,6 +194,8 @@ export const randomData = [
   },
   {
     id: 7,
+    image: "/images/hero.jpg",
+
     title: "blog seven for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -186,6 +208,8 @@ export const randomData = [
   },
   {
     id: 8,
+    image: "/images/hero.jpg",
+
     title: "blog eight for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -198,6 +222,8 @@ export const randomData = [
   },
   {
     id: 9,
+    image: "/images/hero.jpg",
+
     title: "blog nine for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],
@@ -210,6 +236,8 @@ export const randomData = [
   },
   {
     id: 10,
+    image: "/images/hero.jpg",
+
     title: "blog ten for test in development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus, distinctio quidem, fugiat dignissimos esse ab ducimus rem consequuntur magni perferendis! Molestiae, iure repellat provident at magnam, corporis eligendi atque optio vitae ut delectus rerum excepturi libero soluta! Magni est quaerat repellendus voluptatibus quidem quae id alias labore veniam, accusantium quo libero odio esse a, dolor soluta ea, iste omnis et.",
     tags: ["blog", "development", "education"],

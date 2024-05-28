@@ -28,9 +28,12 @@ const Header = () => {
       className={
         isScrolling
           ? "fixed top-0 left-0 right-0 z-[999] bg-primary/85 transition-all duration-500"
-          : "fixed top-0 left-0 right-0 z-[999] bg-primary/20 transition-all duration-500"
+          : "fixed top-0 left-0 right-0 z-[999] bg-primary/90 transition-all duration-500"
       }>
-      <div className=''>
+      <div className='md:block hidden'>
+        <DescktopHeader />
+      </div>
+      <div className='md:hidden block'>
         <MobileHeader />
       </div>
     </div>

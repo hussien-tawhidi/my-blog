@@ -6,7 +6,7 @@ import HeroFooter from "./HeroFooter";
 const Hero = () => {
   return (
     <>
-      <div className='relative overflow-hidden bg-red-300'>
+      <div className='relative overflow-hidden'>
         <Image
           src='/images/customize.jpg'
           alt='hero'

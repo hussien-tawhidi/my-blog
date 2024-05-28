@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Dosis } from "next/font/google";
 import "./(site)/globals.css";
 
-import Header from "@/components/shared/header";
+import Header from "@/components/header/Header";
 import Footer from "@/components/shared/footer/Footer";
 
 const dosis = Dosis({ subsets: ["latin"] });
@@ -19,9 +19,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <head>
+        <link
+          rel='stylesheet'
+          type='text/css'
+          charSet='UTF-8'
+          href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'
+        />
+        <link
+          rel='stylesheet'
+          type='text/css'
+          href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'
+        />
+      </head>
       <body className={dosis.className}>
         <div className='bg-primary text-dark'>
-          <Header />
+        <Header/>
           {children}
           <Footer />
         </div>
